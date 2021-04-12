@@ -4,7 +4,7 @@
 
 > This code is based on [sentence-transformers (0.4.1.2)](https://github.com/UKPLab/sentence-transformers)
 
-## 若您没有可供使用的GPU设备，可使用[Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb) 使用免费的GPU设备
+## 若您没有可供使用的GPU设备，可使用[Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb) 免费的GPU设备
 
 NOTE: test in `torch==1.8.0+cu101`
 

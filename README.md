@@ -17,7 +17,7 @@
 3. 根据 `data_KFold_1/origin/` 目录下未处理的五折交叉验证数据生成不同损失函数所需的训练集和验证集，这些数据集分别存储在 `data_KFold_1/sample_ContrastiveLoss/`、`data_KFold_1/sample_MultipleNegativesRankingLoss/` 和 `data_KFold_1/sample_TripletLoss/` 目录下；
 
 
-## 训练和映射（完整的.py文件会陆续更新，暂时代码为.ipynb文件）
+## 训练和映射（完整的.py文件会陆续更新，为了便于在Google Colaboratory中执行，代码暂时为.ipynb文件）
 
 注: 测试环境为 `torch==1.8.0+cu101`
 

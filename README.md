@@ -14,7 +14,7 @@
 3. 根据 `data_KFold_1/origin/` 目录下未处理的五折交叉验证数据生成不同损失函数训练时所需的训练集和验证集，这些数据集分别存储在 `data_KFold_1/sample_ContrastiveLoss/`、`data_KFold_1/sample_MultipleNegativesRankingLoss/` 和 `data_KFold_1/sample_TripletLoss/` 目录下；
 
 
-### 训练和映射（完整的.py文件会陆续更新，代码暂时只提供.ipynb文件）
+### 训练和映射（代码暂时只提供.ipynb文件，之后会陆续更新为.py文件）
 
 #### 若您没有可供使用的GPU设备，可使用[Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb) 提供的免费GPU设备
 

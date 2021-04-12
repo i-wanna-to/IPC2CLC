@@ -11,7 +11,7 @@
 
 2. 除基于匹配计数的类目相似度实验和零样本迁移学习实验外，其余实验采用五折交叉验证，未处理的五折交叉验证数据存储在 `data_KFold_1/origin/` 目录下，每一折划分了训练数据（XXX_train.txt）和测试数据（XXX_valid.txt），训练时的验证集将从训练数据中划分出来（验证集占训练集的1/5）；
 
-3. 根据 `data_KFold_1/origin/` 目录下未处理的五折交叉验证数据生成不同损失函数所需的训练数据和测试数据，这些数据集分别存储在 `data_KFold_1/sample_ContrastiveLoss/`、`data_KFold_1/sample_MultipleNegativesRankingLoss/` 和 `data_KFold_1/sample_TripletLoss/` 目录下；
+3. 根据 `data_KFold_1/origin/` 目录下未处理的五折交叉验证数据生成不同损失函数训练时所需的训练集和验证集，这些数据集分别存储在 `data_KFold_1/sample_ContrastiveLoss/`、`data_KFold_1/sample_MultipleNegativesRankingLoss/` 和 `data_KFold_1/sample_TripletLoss/` 目录下；
 
 
 ### 训练和映射（完整的.py文件会陆续更新，代码暂时为.ipynb文件）

@@ -1,10 +1,10 @@
-# IPC2CLC
+# 基于Siamese BERT网络的科技文献IPC和CLC类目映射研究
 
-基于预训练语言模型的孪生网络的IPC与CLC类目映射
+《计算机研究与发展》人工智能专题在投论文开源数据和代码，完整项目持续更新...
 
 > This code is based on [sentence-transformers (0.4.1.2)](https://github.com/UKPLab/sentence-transformers)
 
-## 执行（Installation）
+## 若您没有可供使用的GPU设备，可使用[Google Colaboratory)](https://colab.research.google.com/notebooks/intro.ipynb)使用免费的GPU设备
 
 1. `pip install -r requirements.txt`
 2. `python run.py`

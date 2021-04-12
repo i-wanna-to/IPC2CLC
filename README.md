@@ -1,14 +1,11 @@
-# 基于Siamese BERT网络的科技文献IPC和CLC类目映射研究
+## 基于Siamese BERT网络的科技文献IPC和CLC类目映射研究
 
 《计算机研究与发展》人工智能专题在投论文开源数据和代码，完整项目持续更新...
 
 > This code is based on [sentence-transformers (0.4.1.2)](https://github.com/UKPLab/sentence-transformers)
 
-## 若您没有可供使用的GPU设备，可使用[Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb) 提供的免费GPU设备
 
-
-
-## 数据说明：训练数据\验证数据\测试数据
+### 数据说明：训练数据\验证数据\测试数据
 
 1. 实验所需的数据存储在 `data_KFold_1/` 目录下，1000条原始数据（raw data）存储在 `data_KFold_1/raw_data/` 目录下；
 
@@ -17,40 +14,42 @@
 3. 根据 `data_KFold_1/origin/` 目录下未处理的五折交叉验证数据生成不同损失函数所需的训练集和验证集，这些数据集分别存储在 `data_KFold_1/sample_ContrastiveLoss/`、`data_KFold_1/sample_MultipleNegativesRankingLoss/` 和 `data_KFold_1/sample_TripletLoss/` 目录下；
 
 
-## 训练和映射（完整的.py文件会陆续更新，为了便于在Google Colaboratory中执行，代码暂时为.ipynb文件）
+### 训练和映射（完整的.py文件会陆续更新，代码暂时为.ipynb文件）
+
+#### 若您没有可供使用的GPU设备，可使用[Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb) 提供的免费GPU设备
 
 注: 测试环境为 `torch==1.8.0+cu101`
 
-### sia-BERT模型和sia-BERT-Zero模型
+#### sia-BERT模型和sia-BERT-Zero模型
 
 > `si_model.ipynb`
 
-### sia-Multi模型和sia-Multi-Zero模型
+#### sia-Multi模型和sia-Multi-Zero模型
 
 > `si_model.ipynb`
 
-### Bi-TextCNN模型
+#### Bi-TextCNN模型
 
 > `Bilinear_CNN.ipynb`
 
-### TextCNN模型
+#### TextCNN模型
 
 > `Text_CNN.ipynb`
 
-### Bi-LSTM模型
+#### Bi-LSTM模型
 
 > `Bi_LSTM.ipynb`
 
-### T-Encoder模型
+#### T-Encoder模型
 
 > `Transformer_Encoder.ipynb`
 
-### Category-Sim模型
+#### Category-Sim模型
 
 > `ipc_to_clc.ipynb`
 
 
-## 各模型的实验结果
+### 各模型的实验结果
 
 | 模型 | A | B | C | D | E | F | G | H | AVE |
 | :--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -64,10 +63,10 @@
 | T-Encoder | 93.02 | 92.66 | 94.41 | 86.49 | 98.72 | 92.25 | 95.97 | 85.16 | 92.40 |
 | Sia-BERT | 94.57 | 94.35 | 94.41 | 87.84 | 98.72 | 96.12 | 94.35 | 90.63 | 94.00 |
 
-注：实验结果为准确率(%)
+注：实验评价指标为准确率(%)
 
 
-## 引用和作者（Citing & Authors）
+### 引用和作者（Citing & Authors）
 如果您使用了我们的实验数据或者代码，请引用（If you use the code, feel free to cite our publication [IPC2CLC](https://github.com/i-wanna-to/IPC2CLC/)）:
 ``` 
 @article{XXX-2021-XXX,
@@ -80,7 +79,7 @@
 }
 ```
 
-如果您使用了我们发布的实验数据，请先与我们先取得联系，获得同意后再使用！（基于盲审要求，暂时需要匿名。）
-邮箱: XXX, X@X.edu.cn
+如果您使用了我们发布的实验数据和代码，请先与我们先取得联系，获得同意后再使用！
+联系邮箱: XXX, X@X.edu.cn （基于盲审要求，暂时需要匿名。）
 
 如果有疑问可以给我发送电子邮件或者发布一个 issue。（Don't hesitate to send us an e-mail or report an issue, if something is broken or if you have further questions.）

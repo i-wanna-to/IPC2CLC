@@ -23,7 +23,7 @@
 3. `sentence-transformers` 目录为修改过源码的 sentence-transformers 库。
 
 
-### 训练和映射（代码暂时只提供.ipynb文件，之后会陆续更新为.py文件）
+### 训练和映射（代码暂时只提供.ipynb文件，之后会陆续更新.py文件）
 
 #### 若您没有可供使用的GPU设备，可使用[Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb) 提供的免费GPU设备
 

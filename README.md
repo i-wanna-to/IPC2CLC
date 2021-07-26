@@ -79,7 +79,7 @@
 ### 引用和作者（Citing & Authors）
 如果您使用了我们的实验数据或者代码，请引用（If you use the code, feel free to cite our publication [IPC2CLC](https://github.com/i-wanna-to/IPC2CLC/)）:
 ``` 
-@article{XXX-2021-XXX,
+@article{i-wanna-to-2021-IPC2CLC,
     title = "基于孪生BERT网络的科技文献类目映射",
     author = "何贤敏, 李茂西, 何彦青", 
     journal= "计算机研究与发展",

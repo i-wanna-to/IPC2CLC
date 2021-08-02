@@ -5,58 +5,38 @@
 > This code is based on [sentence-transformers (0.4.1.2)](https://github.com/UKPLab/sentence-transformers)
 
 
-### 数据说明：训练数据\验证数据\测试数据
+### 数据说明（训练数据\验证数据\测试数据）
 
-1. 实验所需的数据存储在 `data_KFold_1/` 目录下，1000条原始数据（raw data）存储在 `data_KFold_1/raw_data/` 目录下。
-
-2. 除基于匹配计数的类目相似度实验和零样本迁移学习实验外，其余实验采用五折交叉验证，未处理的五折交叉验证数据存储在 `data_KFold_1/origin/` 目录下，每一折划分了训练数据（XXX_train.txt）和测试数据（XXX_valid.txt），训练时的验证集将从训练数据中划分出来（验证集占训练集的1/5）。
-
-3. 根据 `data_KFold_1/origin/` 目录下未处理的五折交叉验证数据生成不同损失函数训练时所需的训练集和验证集，这些数据集分别存储在 
-`data_KFold_1/sample_ContrastiveLoss/`、`data_KFold_1/sample_MultipleNegativesRankingLoss/` 和 `data_KFold_1/sample_TripletLoss/` 目录下。
+1. 实验数据存储在 `dataset/` 目录下；
+2. `dataset/` 目录中包括：三个损失函数所需的训练数据（*_train.txt）\验证数据（*_valid.txt）\测试数据（*_test.txt）；
+3. 在三个损失函数中，除排序损失函数外，其他两个损失函数所需的验证数据在训练过程中自动划分1/5的训练数据出来作为验证数据。
 
 
 ### 组织结构说明：
 
-1. `error_log` 目录在实验过程中保存对应模型的日志文件。
-
-2. `output` 目录在实验过程中保存对应模型的模型文件和权重参数。
-
-3. `sentence-transformers` 目录为修改过源码的 sentence-transformers 库。
+1. `error_log` 目录在实验过程中自动创建，保存对应模型映射错误的类目；
+2. `output` 目录在实验过程中自动创建，保存训练好的模型和参数权重；
+3. `sentence-transformers` 目录为修改过部分源码的 sentence-transformers 库。
 
 
-### 训练和映射（代码暂时只提供.ipynb文件，之后会陆续更新.py文件）
+### 训练和映射（提供.py文件/.ipynb文件）
 
 #### 若您没有可供使用的GPU设备，可使用[Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb) 提供的免费GPU设备
 
 注: 测试环境为 `torch==1.8.0+cu101`
 
+#### 安装依赖
+
+> pip install -r requirements.txt
+
 #### sia-BERT模型和sia-BERT-Zero模型
 
-> `si_model.ipynb`
+> 执行 `python run.py`
 
 #### sia-Multi模型和sia-Multi-Zero模型
 
-> `si_model.ipynb`
-
-#### Bi-TextCNN模型
-
-> `Bilinear_CNN.ipynb`
-
-#### TextCNN模型
-
-> `Text_CNN.ipynb`
-
-#### Bi-LSTM模型
-
-> `Bi_LSTM.ipynb`
-
-#### T-Encoder模型
-
-> `Transformer_Encoder.ipynb`
-
-#### Category-Sim模型
-
-> `Category-Sim.ipynb`
+> 1. 修改配置文件 `model_args.json` 中的 `model_namen`
+> 2. 执行 `si_model.ipynb`
 
 
 ### 各模型的实验结果（%）

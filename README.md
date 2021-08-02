@@ -8,7 +8,7 @@
 ### 数据说明（训练数据\验证数据\测试数据）
 
 1. 实验数据存储在 `dataset/` 目录下；
-2. `dataset/` 目录中包括：三个损失函数所需的训练数据（*_train.txt）\验证数据（*_valid.txt）\测试数据（*_test.txt）；
+2. `dataset/` 目录中包括：三个损失函数所需的训练数据（ *_train.txt）\验证数据（ *_valid.txt）\测试数据（ *_test.txt）；
 3. 在三个损失函数中，除排序损失函数外，其他两个损失函数所需的验证数据在训练过程中自动划分1/5的训练数据出来作为验证数据。
 
 
@@ -35,8 +35,8 @@
 
 #### sia-Multi模型和sia-Multi-Zero模型
 
-> 1. 修改配置文件 `model_args.json` 中的 `model_namen`
-> 2. 执行 `si_model.ipynb`
+> 1. 修改配置文件 `model_args.json` 中的 `model_name`
+> 2. 执行 `python run.py`
 
 
 ### 各模型的实验结果（%）

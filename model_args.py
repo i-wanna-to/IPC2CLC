@@ -18,7 +18,7 @@ class ModelArgs():
     model_name: str = "bert-base-chinese"
     custom_model: bool = True
     batch_size: int = 64
-    num_epochs: int = 20
+    num_epochs: int = 2
     weight_decay: float = 0.01
     loss_type: str = "ContrastiveLoss"
     optimizer_class: str = "AdamW"

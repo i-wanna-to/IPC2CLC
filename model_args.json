@@ -3,7 +3,7 @@
     "model_name" : "bert-base-chinese",
     "custom_model" : "True",
     "batch_size" : 64,
-    "num_epochs" : 20,
+    "num_epochs" : 2,
     "weight_decay" : 0.01,
     "loss_type" : "ContrastiveLoss",
     "optimizer_class" : "AdamW",

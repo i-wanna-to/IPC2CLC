@@ -19,7 +19,7 @@
 3. `sentence-transformers` 目录为修改过部分源码的 sentence-transformers 库。
 
 
-### 训练和映射（提供.py文件/.ipynb文件）
+### 训练和映射
 
 #### 若您没有可供使用的GPU设备，可使用[Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb) 提供的免费GPU设备
 
@@ -59,14 +59,21 @@
 ### 引用和作者（Citing & Authors）
 如果您使用了我们的实验数据或者代码，请引用（If you use the code, feel free to cite our publication [IPC2CLC](https://github.com/i-wanna-to/IPC2CLC/)）:
 ``` 
-@article{i-wanna-to-2021-IPC2CLC,
-    title = "基于孪生BERT网络的科技文献类目映射",
-    author = "何贤敏, 李茂西, 何彦青", 
-    journal= "计算机研究与发展",
-    month = "8",
-    year = "2021",
-    url = "https://github.com/i-wanna-to/IPC2CLC/",
-}
+@article{何贤敏:1751,
+author = {何贤敏,李茂西,何彦青},
+title = {基于孪生BERT网络的科技文献类目映射},
+publisher = {计算机研究与发展},
+year = {2021},
+journal = {计算机研究与发展},
+volume = {58},
+number = {8},
+eid = {1751},
+numpages = {9},
+pages = {1751},
+keywords = {国际专利分类法;中国图书馆分类法;基于孪生BERT网络;类目映射;对比损失},
+url = {https://crad.ict.ac.cn/CN/abstract/article_4478.shtml},
+doi = {10.7544/issn1000-1239.2021.20210323}
+}    
 ```
 
 如果您使用了我们发布的实验数据和代码，请先与我们先取得联系，获得同意后再使用！

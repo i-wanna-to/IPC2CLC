@@ -56,8 +56,8 @@
 注：实验评价指标为准确率和方差
 
 
-### 引用和作者（Citing & Authors）
-如果您使用了我们的实验数据或者代码，请引用（If you use the code, feel free to cite our publication [IPC2CLC](https://github.com/i-wanna-to/IPC2CLC/)）:
+### 引用和作者
+如果在您的工作中使用了我们的实验数据或者代码，请引用 [IPC2CLC](https://github.com/i-wanna-to/IPC2CLC/):
 ``` 
 @article{何贤敏:1751,
 author = {何贤敏,李茂西,何彦青},
@@ -76,7 +76,7 @@ doi = {10.7544/issn1000-1239.2021.20210323}
 }    
 ```
 
-如果您使用了我们发布的实验数据和代码，请先与我们先取得联系，获得同意后再使用！
+如果您需要使用我们发布的实验数据和代码，请先与我们先取得联系，获得同意后再使用！
 联系邮箱: 何贤敏, xianminhe@jxnu.edu.cn
 
-如果有疑问可以给我发送电子邮件或者发布一个 issue。（Don't hesitate to send us an e-mail or report an issue, if something is broken or if you have further questions.）
+如果有疑问可以给我发送电子邮件。

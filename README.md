@@ -72,7 +72,13 @@ pages = {1751},
 keywords = {国际专利分类法;中国图书馆分类法;基于孪生BERT网络;类目映射;对比损失},
 url = {https://crad.ict.ac.cn/CN/abstract/article_4478.shtml},
 doi = {10.7544/issn1000-1239.2021.20210323}
-}    
+}
+```
+
+``` 
+何贤敏,李茂西,何彦青. 基于孪生BERT网络的科技文献类目映射[J]. 计算机研究与发展, 2021, 58(8): 1751-1760.
+
+He Xianmin, Li Maoxi, He Yanqing. Siamese BERT-Networks Based Classification Mapping of Scientific and Technological Literature[J]. Journal of Computer Research and Development, 2021, 58(8): 1751-1760.
 ```
 
 如果您需要使用我们发布的实验数据和代码，请先与我们先取得联系，获得同意后再使用！

@@ -2,13 +2,14 @@
 
 《计算机研究与发展》人工智能专题论文开源数据和代码，完整项目持续更新...
 
+
 > This code is based on [sentence-transformers (0.4.1.2)](https://github.com/UKPLab/sentence-transformers)
 
 
 ### 数据说明（训练数据\验证数据\测试数据）
 
 1. 实验数据存储在 `dataset/` 目录下；
-2. `dataset/` 目录中包括：1000条IPC和1000条CLC数据；所需的训练数据（ *_train.txt）\验证数据（ *_valid.txt）\测试数据（ *_test.txt）需要划分，比例为：16：4：5（说明：先按照4：1划分成训练集和测试集，在训练集中划分1/5出来作为训练过程中的验证集）；
+2. `dataset/` 目录中包括：1000条IPC和1000条CLC数据；所需的训练数据（ *_train.txt）\验证数据（ *_valid.txt）\测试数据（ *_test.txt）需要划分，比例为：先按照4：1划分成训练集和测试集，在训练集中划分1/5出来作为训练过程中的验证集）；
 
 
 ### 组织结构说明：
@@ -56,10 +57,10 @@
 
 
 ### 引用和作者
-如果在您的工作中使用了我们的实验数据或者代码，请引用 [IPC2CLC](https://github.com/i-wanna-to/IPC2CLC/):
+如果在您的工作中使用了我们的实验数据或者代码(论文盲审中，已隐去作者名称...)，请引用 [IPC2CLC](https://github.com/i-wanna-to/IPC2CLC/):
 ``` 
-@article{何贤敏:1751,
-author = {何贤敏,李茂西,何彦青},
+@article{***:1751,
+author = {***,***,***},
 title = {基于孪生BERT网络的科技文献类目映射},
 publisher = {计算机研究与发展},
 year = {2021},
@@ -76,13 +77,13 @@ doi = {10.7544/issn1000-1239.2021.20210323}
 ```
 
 ``` 
-何贤敏,李茂西,何彦青. 基于孪生BERT网络的科技文献类目映射[J]. 计算机研究与发展, 2021, 58(8): 1751-1760.
+***,***,***. 基于孪生BERT网络的科技文献类目映射[J]. 计算机研究与发展, 2021, 58(8): 1751-1760.
 
-He Xianmin, Li Maoxi, He Yanqing. Siamese BERT-Networks Based Classification Mapping of Scientific and Technological Literature[J]. Journal of Computer Research and Development, 2021, 58(8): 1751-1760.
+***, ***, ***. Siamese BERT-Networks Based Classification Mapping of Scientific and Technological Literature[J]. Journal of Computer Research and Development, 2021, 58(8): 1751-1760.
 ```
 
 如果您需要使用我们发布的实验数据和代码，请先与我们先取得联系，获得同意后再使用！
 
-联系邮箱: 何贤敏, xianminhe@jxnu.edu.cn
+联系邮箱: ***, ***@jxnu.edu.cn
 
 如果有疑问可以给我发送电子邮件。
